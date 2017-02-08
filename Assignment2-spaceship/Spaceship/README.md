@@ -32,3 +32,5 @@ Running of the Program
 Note: the start page and game over page are made by myself use Photoshop. all the diamond, spaceship,asteriod was modify by Photoshop.
 
 Youtube video: https://www.youtube.com/watch?v=DDFIja0PvFc&feature=youtu.be
+
+
