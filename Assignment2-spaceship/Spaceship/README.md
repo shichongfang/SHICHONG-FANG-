@@ -22,9 +22,13 @@ the game has six features
 Controls
 
 Use mouse to start or exit this game 
+
 Use keyboard WASD to move the spaceship
+
 Use key J to fire the laser 
+
 Use Y to continuous or N to exit
+
 
 Running of the Program
 
