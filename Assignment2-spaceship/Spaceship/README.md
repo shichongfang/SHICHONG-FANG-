@@ -6,6 +6,7 @@ The environment is an outer space. Use keyboard to control the spaceship and pic
 Features
 
 the game has six features
+
 1.start page
 
 2.Game page
