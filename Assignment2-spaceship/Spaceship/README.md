@@ -19,6 +19,10 @@ the game has six features
 
 6.Highest score
 
+
+
+
+
 Controls
 
 Use mouse to start or exit this game 
@@ -28,6 +32,7 @@ Use keyboard WASD to move the spaceship
 Use key J to fire the laser 
 
 Use Y to continuous or N to exit
+
 
 
 Running of the Program
@@ -45,7 +50,11 @@ Running of the Program
 
 7.This game will record the highest score you got and update the score when you break the last highest score.
 
+
+
 Note: the start page and game over page are made by myself use Photoshop. all the diamond, spaceship,asteriod was modify by Photoshop.
+
+
 
 Youtube video: https://www.youtube.com/watch?v=DDFIja0PvFc&feature=youtu.be
 
