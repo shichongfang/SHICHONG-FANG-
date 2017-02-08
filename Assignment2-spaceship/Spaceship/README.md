@@ -7,10 +7,15 @@ Features
 
 the game has six features
 1.start page
+
 2.Game page
+
 3.Game over page
+
 4.Background sound
+
 5.Special effect sound
+
 6.Highest score
 
 Controls
@@ -24,9 +29,15 @@ Running of the Program
 
 1.At the start page there has two option you can choose(start and exit).
 2.You can see your life and score on this page.
-3.When you use out your life, it will show the highest score on this page. And 4.you can also choose continue to play or exit game.
+
+3.When you use out your life, it will show the highest score on this page. And 
+
+4.you can also choose continue to play or exit game.
+
 5.when you start this game, the background sound will play automatically.
+
 6.When you pick up a diamond or use laser to shot the asteroid, the special effect sounds will play.
+
 7.This game will record the highest score you got and update the score when you break the last highest score.
 
 Note: the start page and game over page are made by myself use Photoshop. all the diamond, spaceship,asteriod was modify by Photoshop.
