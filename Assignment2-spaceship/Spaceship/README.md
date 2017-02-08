@@ -50,6 +50,7 @@ Running of the Program
 
 7.This game will record the highest score you got and update the score when you break the last highest score.
 
+8. As you get higher score, the asteriods speed will get faster to make the game much difficult.
 
 
 Note: the start page and game over page are made by myself use Photoshop. all the diamond, spaceship,asteriod was modify by Photoshop.
