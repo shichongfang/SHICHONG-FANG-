@@ -53,3 +53,32 @@ public void paint(Gtaphics g){
   BufferedImage bi = (BufferedImage) this.createImage(
   this.getSize().width, this.getSize().height);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+package ie.dit;
+
+import java.awt.Color;
+
+public class MainFrame {
+
+    public static void main(String[] args) {
+        //Program entry
+        MoveBallGame mbg = new MoveBallGame();
+        mbg.initFrame();
+    }
+}
