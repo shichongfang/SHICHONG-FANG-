@@ -45,4 +45,11 @@ if(distance<=length){
   mt1.ySpeed = -mt1.ySpeed;
 }
   }
+
+//Draw graphics
+public void paint(Gtaphics g){
+  //super.paint(g);
+  //Create a buffered image
+  BufferedImage bi = (BufferedImage) this.createImage(
+  this.getSize().width, this.getSize().height);
 }
