@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Waypoints : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public static Transform[] positions;
+
+	void Awake()
+	{
+		positions = new Transform[transform.childCount];
+		for(int i = 0; i < positions.Length; i++)
+		{
+			positions[i] = transform.GetChild(i);
+		}
 	}
 }
