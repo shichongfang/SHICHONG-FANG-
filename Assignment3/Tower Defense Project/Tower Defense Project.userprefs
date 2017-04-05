@@ -1,10 +1,10 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Wave.cs">
     <Files>
       <File FileName="Assets/Scripts/Enemy.cs" Line="26" Column="4" />
       <File FileName="Assets/Scripts/ViewController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Waypopints.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Wave.cs" Line="6" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
