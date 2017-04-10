@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour {
 
+	public Wave[] waves;
+	public int id;
+
 	// Use this for initialization
 	void Start () {
 		
