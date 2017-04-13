@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ViewController : MonoBehaviour {
 
-	public float speed = 28;
+	public float speed = 23;
 	public float mouseSpeed = 300;
 	// Update is called once per frame
 	void Update () {
