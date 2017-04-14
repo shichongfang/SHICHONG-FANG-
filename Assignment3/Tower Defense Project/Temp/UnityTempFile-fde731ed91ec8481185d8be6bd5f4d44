@@ -79,6 +79,7 @@
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/Enemy.cs'
 'Assets/Scripts/EnemySpawner.cs'
+'Assets/Scripts/Turret Data.cs'
 'Assets/Scripts/ViewController.cs'
 'Assets/Scripts/Wave.cs'
 'Assets/Scripts/Waypoints.cs'
