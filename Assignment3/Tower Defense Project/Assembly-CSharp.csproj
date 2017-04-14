@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\BuildManager.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\MapCube.cs" />
      <Compile Include="Assets\Scripts\TurretData.cs" />
      <Compile Include="Assets\Scripts\ViewController.cs" />
      <Compile Include="Assets\Scripts\Wave.cs" />
