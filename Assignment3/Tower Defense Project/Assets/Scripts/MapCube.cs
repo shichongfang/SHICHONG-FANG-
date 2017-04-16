@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class MapCube : MonoBehaviour {
   [HideInInspector]
-	public GameObject turretGo;//save curret turret on the cube
+  public GameObject turretGo;//save curret turret on the cube
 
   public void BuildTurret(GameObject turretPrefab)
-	{
-		turretGo = GameObject.Instantiate(turretPrefab,transform.position,Quaternion.identity);
-	}
+  {
+	turretGo = GameObject.Instantiate(turretPrefab,transform.position,Quaternion.identity);
+  }
 }

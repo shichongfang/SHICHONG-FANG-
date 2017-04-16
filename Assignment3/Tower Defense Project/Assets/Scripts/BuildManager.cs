@@ -13,6 +13,8 @@ public class BuildManager : MonoBehaviour {
 	//表示当前选择的炮台(要建造的炮台)
 	private TurretData selectedTurretData;
 
+    private MapCube selectedMapCube;
+
 	public Text moneyText;
 
 	public Animator moneyAnimator;
@@ -24,7 +26,7 @@ public class BuildManager : MonoBehaviour {
 		money += change;
 		moneyText.text = "$" + money;
 	}
-	//表示当前选择的炮台(场景中的游戏物体)
+	//current selected turret
 
 	void Update()
 	{
@@ -32,14 +34,14 @@ public class BuildManager : MonoBehaviour {
 		{
 			if (EventSystem.current.IsPointerOverGameObject()==false)
 			{
-				//开发炮台的建造
+				//build turret
 				Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 				RaycastHit hit;
 				bool isCollider = Physics.Raycast(ray,out hit, 1000, LayerMask.GetMask("MapCube"));
 				if (isCollider)
-				{
+				{		
 					MapCube mapCube = hit.collider.GetComponent<MapCube>();
-					if (mapCube.turretGo == null)
+					if (selectedTurretData != null && mapCube.turretGo == null)
 					{
 						//can create
 						if(money > selectedTurretData.cost)
