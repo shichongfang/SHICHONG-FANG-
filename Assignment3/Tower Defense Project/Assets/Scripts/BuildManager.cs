@@ -30,7 +30,7 @@ public class BuildManager : MonoBehaviour {
     void ChangeMoney(int change=0)
     {
         money += change;
-        moneyText.text = "￥" + money;
+        moneyText.text = "$" + money;
     }
 
     void Start()
@@ -53,7 +53,7 @@ public class BuildManager : MonoBehaviour {
                     MapCube mapCube = hit.collider.GetComponent<MapCube>();
                     if (selectedTurretData != null && mapCube.turretGo == null)
                     {
-                        //可以创建 
+                        //可以创建
                         if (money > selectedTurretData.cost)
                         {
                             ChangeMoney(-selectedTurretData.cost);
@@ -67,9 +67,9 @@ public class BuildManager : MonoBehaviour {
                     }
                     else if (mapCube.turretGo != null)
                     {
-                        
+
                         // 升级处理
-                        
+
                         //if (mapCube.isUpgraded)
                         //{
                         //    ShowUpgradeUI(mapCube.transform.position, true);
@@ -153,5 +153,5 @@ public class BuildManager : MonoBehaviour {
         selectedMapCube.DestroyTurret();
         StartCoroutine(HideUpgradeUI());
     }
-     
+
 }

@@ -20,13 +20,13 @@ public class GameManager : MonoBehaviour {
     public void Win()
     {
         endUI.SetActive(true);
-        endMessage.text = "胜 利";
+        endMessage.text = "Win";
     }
     public void Failed()
     {
         enemySpawner.Stop();
         endUI.SetActive(true);
-        endMessage.text = "失 败";
+        endMessage.text = "Failed";
     }
 
     public void OnButtonRetry()
