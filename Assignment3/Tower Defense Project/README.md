@@ -1,4 +1,4 @@
-This is a Tower Defenses Project which work for assignment 3. I use Unity5.5 Engine with C# language to build it. The material which I used to import into unity is from Github and Internet. 
+This is a Tower Defenses Project which work for Assignment 3.I use Unity5.5 Engine with C# language to build it. The material which I used to import into unity is from Github and Internet. 
 1.	Use cube to create the map of project
 2.	Create the road prefab on the map 
 3.	Improve the game field of view and make sure player can use keyboard to control
@@ -19,6 +19,6 @@ This is a Tower Defenses Project which work for assignment 3. I use Unity5.5 Eng
 18.	Add the function of update on the turret 
 19.	Control the turret to attack the enemy
 20.	Improve the money change when update the turret
-21.	Create a UI menu of the game project
-22.Debug the project and change some detail.
+21.	Create a UI menu of the game project.
+22. Debug the project and change some detail.
 
