@@ -1,5 +1,23 @@
-# 1
-TestGit
-This is a weapon UI coded by processing. As you can see.it can be divided to five parts. At the upper left corner is a aircraft radar. You can use it to monitor dangerous signal from other enemy’s weapon. At the upper right corner is a route map. You can use it to see if the aircraft fly covered the planned route to make sure the direction. At the lower left corner, there is a status of the aircraft. It used a obj file to create a 3D module. You can use your mouse to see it view from different points. It shows five data of status of the aircraft such as stability and power. At the lower right corner, there is a cor-response module. The Bezier is like a send a signal to other friend aircrafts, when any two friends have a  communication, it will create a Bezier and when you touch a friend craft,it will also have many communication signal from other friend’ aircrafts. At the centre of this UI, there is a dashboard, the number in the centre of dashboard is the speed of the aircraft. You can use the controller to control the speed.
-this is the youtube video address:
-https://www.youtube.com/watch?v=1nVW_Sr-d8g
+This is a Tower Defenses Project which work for assignment 3. I use Unity5.5 Engine with C# language to build it. 
+1.	Use cube to create the map of project
+2.	Create the road prefab on the map 
+3.	Improve the game field of view and make sure player can use keyboard to control
+4.	Create enemy prefab and make sure the enemy can move on the road
+5.	Create the turret prefab 
+6.	Create UI which use to select the turret 
+7.	Save the data of different turrets
+8.	Create the money function when create a turret on a map cube,money will be reduced with the creation of the turret
+9.	Detect mouse on the map cube and check it whether available to create a turret on the map cube
+10.	Create the special effect when create a turret on a map cube 
+11.	Create the update version of turret 
+12.	Use trigger to detect the enemy 
+13.	Create the function of bullet
+14.	Improve the collision of bullets with the enemy and the special effect of collision between enemy and bullets. 
+15.	Use LineRenderer to show the Laser 
+16.	Add the special effect of Laser
+17.	Create the blood volume show of enemies
+18.	Add the function of update on the turret 
+19.	Control the turret to attack the enemy
+20.	Improve the money change when update the turret
+21.	Create a UI menu of the game project
+
