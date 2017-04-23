@@ -22,3 +22,6 @@ This is a Tower Defenses Project which work for Assignment 3.I use Unity5.5 Engi
 21.	Create a UI menu of the game project.
 22. Debug the project and change some detail.
 
+
+Here is the youtube video of the project.
+https://www.youtube.com/watch?v=L8HDqN781IE&feature=youtu.be
