@@ -1,5 +1,7 @@
 This is a Tower Defenses Project which work for Assignment 3.I use Unity5.5 Engine with C# language to build it. The material which I used to import into unity is from Github and Internet. 
 You can use the keyboard and mouse to control the view of camera. You can use the mouse to select the turret from the turret UI and build it on the mapcube. When you there is no enemy on the route, there will create a new wave of enemy. You will win the game when you destroy all waves of enemy.
+
+Here is the steps to make this project:
 1.	Use cube to create the map of project
 2.	Create the road prefab on the map 
 3.	Improve the game field of view and make sure player can use keyboard to control
@@ -24,5 +26,5 @@ You can use the keyboard and mouse to control the view of camera. You can use th
 22. Debug the project and change some detail.
 
 
-Here is the youtube video of the project.
+Here is the youtube video of the project:
 https://www.youtube.com/watch?v=L8HDqN781IE&feature=youtu.be
