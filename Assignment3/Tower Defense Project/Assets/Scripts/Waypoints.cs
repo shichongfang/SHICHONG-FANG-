@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-// 公众号内回复127
 public class Waypoints : MonoBehaviour {
 
 
