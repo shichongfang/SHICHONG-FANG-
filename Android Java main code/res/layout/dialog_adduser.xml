@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_number_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="PhoneNO"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please Input PhoneNo"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="40dp"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_password_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="Password"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please Inout Password "
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_username_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="UserName"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please Input UserName"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_email_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Email"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please input Email"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_age_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Age"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please Inout age（Optional fill）"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/tv_adduser_language_prompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Language"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <EditText
+            android:id="@+id/et_adduser_language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:hint="Please Input Language（Optional fill）"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="@dimen/textsize_middle" />
+    </LinearLayout>
+
+    <View
+        style="@style/Line_thin"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_adduser_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_bg_selector"
+        android:text="Complete" />
+
+</LinearLayout>

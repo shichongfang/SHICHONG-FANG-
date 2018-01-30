@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/iv_item_user_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:src="@drawable/ic_delete" />
+
+        <TextView
+            android:id="@+id/tv_item_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_middle" />
+
+        <TextView
+            android:id="@+id/tv_item_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_user_name"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_small" />
+
+        <TextView
+            android:id="@+id/tv_item_user_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_item_user_name"
+            android:layout_marginLeft="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/tv_item_user_email"
+            android:layout_toRightOf="@id/tv_item_user_email"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_small" />
+    </RelativeLayout>
+
+    <View style="@style/Line_thin" />
+
+</LinearLayout>

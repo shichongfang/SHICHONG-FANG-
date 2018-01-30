@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_rootlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_launcher" />
+
+    <EditText
+        android:id="@+id/et_login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:drawableLeft="@drawable/ic_username"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_username"
+        android:hint="Please enter your account number(PhoneNo)"
+        android:inputType="text"
+        android:textSize="@dimen/textsize_middle" />
+
+    <EditText
+        android:id="@+id/et_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/ic_password"
+        android:hint="Please Input Password"
+        android:inputType="textPassword"
+        android:textSize="@dimen/textsize_middle" />
+
+    <Button
+        android:id="@+id/btn_login_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="Login" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="visible" >
+
+        <TextView
+            android:id="@+id/tv_login_findpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Get Back Password"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_big"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/tv_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            android:text="Register Immediately >>"
+            android:textColor="@color/textcolor_black"
+            android:textSize="@dimen/textsize_big" />
+    </RelativeLayout>
+
+</LinearLayout>

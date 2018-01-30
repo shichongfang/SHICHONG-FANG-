@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#364059"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#28324B" >
+
+        <TextView
+            android:id="@+id/tv_title_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:maxLength="25"
+            android:maxLines="1"
+            android:text="Home Page"
+            android:textColor="@color/textcolor_white"
+            android:textSize="@dimen/textsize_big" />
+
+        <TextView
+            android:id="@+id/tv_home_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_toEndOf="@id/tv_title_name"
+            android:layout_toRightOf="@id/tv_title_name"
+            android:clickable="true"
+            android:drawableEnd="@drawable/home_setting_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/home_setting_selector"
+            android:gravity="end"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:textColor="@color/textcolor_white"
+            android:textSize="@dimen/textsize_middle" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/home_admin"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        layout="@layout/home_admin"
+        android:visibility="gone" />
+
+    <include
+        android:id="@+id/home_common"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        layout="@layout/home_common"
+        android:visibility="gone" />
+
+</LinearLayout>
